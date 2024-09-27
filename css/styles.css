@@ -33,13 +33,14 @@ li a {
    padding: 14px 16px;
 }
 
-/*li a:hover:not(.active){
-    background-color: #5b5d5b;
+li a:hover:not(.active){
+    background-color: #45a049;
+    color: #ffffff;
 }
 
 .active  {
-    background-color: #515451;
-}*/
+    background-color: #45a049;
+}
 .concepto {
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
