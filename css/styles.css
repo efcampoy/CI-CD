@@ -70,6 +70,11 @@ li a:hover:not(.active){
     padding: 20px;
     margin: 20px 100px 20px 100px;
     border-radius: 5px;
+    width: 450px;
+    height: 130px;
+}
+.caja p {
+    display: block;
 }
 .suscribir {
     background-color: #ffffff;
