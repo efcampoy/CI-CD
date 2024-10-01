@@ -1,10 +1,11 @@
 body {
     margin: 0px;
-    background-color: #f4f4f4;;
+    background-color: #f4f4f4;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #005dff;
     text-align: center;
     padding: 20px;
     color:white;
@@ -28,18 +29,18 @@ nav ul li{
 
 li a {
    text-decoration: none;
-   color: #4CAF50;
+   color: #005dff;
    font-weight: bold;
    padding: 14px 16px;
 }
 
 li a:hover:not(.active){
-    background-color: #45a049;
+    background-color: #005dff;
     color: #ffffff;
 }
 
 .active  {
-    background-color: #45a049;
+    background-color: #005dff;
 }
 .concepto {
     background-color: #ffffff;
@@ -50,7 +51,7 @@ li a:hover:not(.active){
 }
 
 .concepto h2 {
-    color: #4CAF50;
+    color: #005dff;
 }
 
 .caracteristicas {
@@ -62,7 +63,7 @@ li a:hover:not(.active){
 	align-content: space-between;
 }
 .caja h3 {
-    color: #4CAF50;
+    color: #005dff;
 }
 .caja {
 
@@ -98,13 +99,13 @@ li a:hover:not(.active){
 .suscribir input[type="submit"] {
     
     padding: 10px 20px;
-    background-color: #4CAF50 ;
+    background-color: #005dff;
     color: #ffffff;
     border-radius: 5px;
 }
 
 .suscribir input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #003eff;
 }
 
 footer {
