@@ -1,0 +1,24 @@
+name: WebDespliegue
+# cuando queremos que se lance nuestro proyecto
+on:
+# en este caso cada vez que hagamos un push
+  push:
+  # concretamos la rama
+    branches: [main]
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      # maquina en la que queremos ejecutarlo
+    runs-on: ubuntu-latest
+
+      # para lanzar cada una de las actions que van a ser capaces de lanzar nuestro codigo
+    steps:  
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v5
+      
